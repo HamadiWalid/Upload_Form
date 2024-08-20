@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="upload-area">
+    <label for="file-input">
+        <i class="fa-solid fa-upload"></i>
+        <p>Choose files to upload</p>
+    </label>
+    <input type="file" id="file-input" multiple>
+    <div id="num-of-files">No files chosen</div>
+    <ul id="files-list"></ul>
+</div>
